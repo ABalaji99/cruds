@@ -1,4 +1,4 @@
-import { React,useState } from "react";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const EmpCreate = () => {
@@ -18,7 +18,7 @@ const EmpCreate = () => {
       const empdata={name,email,phone,active};
       
 
-      fetch("http://localhost:3000/employee",{
+      fetch("http://localhost:8000/employee",{
         method:"POST",
         headers:{"content-type":"application/json"},
         body:JSON.stringify(empdata)
