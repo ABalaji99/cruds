@@ -1,19 +1,6 @@
 .App {
   text-align: center;
-  overflow-x: hidden;
 }
-
-a.btn{
-  border-radius: 0 !important;
-}
-
-.App .card{
-  border-radius: 0 !important;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border: 1px solid rgb(240, 240, 240) !important;
-}
-
-
 
 .App-logo {
   height: 40vmin;
@@ -25,8 +12,6 @@ a.btn{
 .divbtn{
   float: left;
 }
-
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -48,7 +33,6 @@ a.btn{
 .App-link {
   color: #61dafb;
 }
-
 
 @keyframes App-logo-spin {
   from {
